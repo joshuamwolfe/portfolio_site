@@ -1,3 +1,82 @@
+/*************************************SELECTORS****************************************/
 body {
-background-color: blue;
+    margin: 0;
+    text-align: center;
 }
+
+h1 {
+    margin: 0 auto;
+    padding-top: 100px;
+    width: 25%;
+}
+/*************************************CLASSES******************************************/
+.top-container {
+    background-color: #E4F9F5;
+    padding-top: 50px;
+    position: relative;
+}
+
+.middle-container {
+    height: 200px;
+    width: 200px;
+}
+
+.bottom-container {
+    height: 200px;
+    width: 200px;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+.top-cloud {
+    position: absolute;
+    right: 275px;
+    top: 75px;
+}
+
+.bottom-cloud {
+    bottom: 300px;
+    left: 300px;
+    position: absolute;
+}
+
+/*
+************************************NOTES***********************************************
+MISC CSS NOTES
+- Block level elements take up the entire width of the page.
+- the span element is an inline element
+- the image element is an inline element
+    - treat images as inline block elements
+- the anchor element is an inline element
+- an inline element only takes up as much space as it needs to
+    -
+- display none makes the given element disappeared.
+    - very similar to delte.
+
+ HOW THINGS GET RENDERED
+Static
+    - html only
+    - static by default
+
+Relative
+    - position element relative to the position that it would have been
+    - relative positions top right bottom left, clockwise.
+    - example: img { top: 50px } give the top of the image a space of fifty pixels
+
+Absolute
+    -
+
+Fixed
+    -
+
+ (Legend)
+ ALL CAPS = MAIN TOPIC MATTER
+ (EXAMPLE)
+ TOPIC
+ Subtopic
+     -content one
+     -content two
+****************************************************************************************
+*/
